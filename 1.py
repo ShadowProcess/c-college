@@ -17,5 +17,5 @@ def commit(msg):
 
 if __name__ == '__main__':
     set_sys_date(2015,1,9) #设置那一天
-    set_sys_time(8,0,0)   #设置时分秒
-    commit("first commit") #提交
+    set_sys_time(8,10,0)   #设置时分秒
+    commit("循环") #提交

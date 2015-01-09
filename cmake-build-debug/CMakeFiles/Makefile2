@@ -53,18 +53,38 @@ CMAKE_BINARY_DIR = D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/c_college.dir/all
+all: zbreak_continuezbreak_continue/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: zbreak_continuezbreak_continue/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/c_college.dir/clean
+clean: zbreak_continuezbreak_continue/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory zbreak_continuezbreak_continue
+
+# Recursive "all" directory target.
+zbreak_continuezbreak_continue/all: zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/all
+
+.PHONY : zbreak_continuezbreak_continue/all
+
+# Recursive "preinstall" directory target.
+zbreak_continuezbreak_continue/preinstall:
+
+.PHONY : zbreak_continuezbreak_continue/preinstall
+
+# Recursive "clean" directory target.
+zbreak_continuezbreak_continue/clean: zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/clean
+
+.PHONY : zbreak_continuezbreak_continue/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/c_college.dir
@@ -92,6 +112,33 @@ c_college: CMakeFiles/c_college.dir/rule
 CMakeFiles/c_college.dir/clean:
 	$(MAKE) -f CMakeFiles\c_college.dir\build.make CMakeFiles/c_college.dir/clean
 .PHONY : CMakeFiles/c_college.dir/clean
+
+#=============================================================================
+# Target rules for target zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir
+
+# All Build rule for target.
+zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/all:
+	$(MAKE) -f zbreak_continuezbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/depend
+	$(MAKE) -f zbreak_continuezbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target zbreak-continue"
+.PHONY : zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/all
+
+# Build rule for subdir invocation for target.
+zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 0
+.PHONY : zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/rule
+
+# Convenience name for target.
+zbreak-continue: zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/rule
+
+.PHONY : zbreak-continue
+
+# clean rule for target.
+zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/clean:
+	$(MAKE) -f zbreak_continuezbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/clean
+.PHONY : zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

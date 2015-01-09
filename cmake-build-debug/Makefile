@@ -122,6 +122,19 @@ c_college/fast:
 	$(MAKE) -f CMakeFiles\c_college.dir\build.make CMakeFiles/c_college.dir/build
 .PHONY : c_college/fast
 
+#=============================================================================
+# Target rules for targets named zbreak-continue
+
+# Build rule for target.
+zbreak-continue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 zbreak-continue
+.PHONY : zbreak-continue
+
+# fast build rule for target.
+zbreak-continue/fast:
+	$(MAKE) -f zbreak_continuezbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/build
+.PHONY : zbreak-continue/fast
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +171,7 @@ help:
 	@echo ... c_college
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... zbreak-continue
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
