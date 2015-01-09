@@ -1,7 +1,7 @@
 import datetime
 import os
 
-#
+##
 
 def set_sys_date(year, month, day):
     print('date %04d/%02d/%02d' % (year, month, day))
