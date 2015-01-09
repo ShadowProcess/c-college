@@ -1,0 +1,3 @@
+D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/CMakeFiles/c_college.dir
+D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/CMakeFiles/rebuild_cache.dir
