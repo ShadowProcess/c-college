@@ -3,4 +3,4 @@ project(c-college C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(zbreak-continue ZbreakContinue.c)
+ADD_EXECUTABLE(constants_store ConstantsStore.c)
