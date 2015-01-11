@@ -17,5 +17,5 @@ def commit(msg):
 
 if __name__ == '__main__':
     set_sys_date(2015,1,12) #设置那一天
-    set_sys_time(7,10,0)    #设置时分秒
+    set_sys_time(7,10,12)    #设置时分秒
     commit("倒计时") #提交                        #想要深色点，最低三个提交
