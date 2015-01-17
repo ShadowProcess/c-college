@@ -16,6 +16,6 @@ def commit(msg):
     os.system('git commit -m %s' % (msg))
 
 if __name__ == '__main__':
-    set_sys_date(2015,1,16)    #设置那一天
-    set_sys_time(19,10,12)    #设置时分秒
-    commit("结构体")    #提交                        #想要深色点，最低三个提交
+    set_sys_date(2015,1,17)    #设置那一天
+    set_sys_time(20,11,12)    #设置时分秒
+    commit("比较")    #提交                        #想要深色点，最低三个提交
