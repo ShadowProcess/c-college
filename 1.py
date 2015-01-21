@@ -18,4 +18,4 @@ def commit(msg):
 if __name__ == '__main__':
     set_sys_date(2015,1,21)    #设置那一天
     set_sys_time(20,21,12)    #设置时分秒
-    commit("小数")    #提交                        #想要深色点，最低三个提交
+    commit("小数存储不准确问题")    #提交                        #想要深色点，最低三个提交
