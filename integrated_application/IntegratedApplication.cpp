@@ -35,7 +35,6 @@ int main(void)
 		printf("score = ");
 		scanf_s("%f", &pArr[i].score);
 	}
-
 	//按学生成绩升序排序 冒泡算法
 	for (i = 0; i < len - 1; ++i)
 	{
