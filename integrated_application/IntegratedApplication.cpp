@@ -16,7 +16,6 @@ int main(void)
 	int i, j;
 	struct Student t;
 
-
 	//动态的构造一维数组
 	printf("请输入学生的个数:\n");
 	printf("len = ");
