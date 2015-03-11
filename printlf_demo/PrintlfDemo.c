@@ -1,7 +1,3 @@
-//
-// Created by Alex on 2019/11/29.
-//
-
 #include "PrintlfDemo.h"
 // ConsoleApplication3.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
