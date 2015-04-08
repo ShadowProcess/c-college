@@ -4,9 +4,7 @@
 
 #include <stdio.h>
 
-
 void f(void) { //括号里的void表示:不需要参数
-
 }
 
 int f(int i) {    //这个函数返回值为10，因为返回值以方法名前的类型为主

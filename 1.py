@@ -17,5 +17,5 @@ def commit(msg):
 
 if __name__ == '__main__':
     set_sys_date(2015,4,8)    #设置那一天
-    set_sys_time(15,27,21)     #设置时分秒
-    commit("去掉注释")    #提交  #想要深色点，最低三个提交
+    set_sys_time(15,29,21)     #设置时分秒
+    commit("整理")    #提交  #想要深色点，最低三个提交
