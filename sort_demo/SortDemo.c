@@ -1,10 +1,3 @@
-//
-// Created by Alex on 2019/11/29.
-//
-
-// ÅÅĞò.cpp : ´ËÎÄ¼ş°üº¬ "main" º¯Êı¡£³ÌĞòÖ´ĞĞ½«ÔÚ´Ë´¦¿ªÊ¼²¢½áÊø¡£
-//
-
 #include <stdio.h>
 
 void QuickSort(int* a, int low, int high);
@@ -13,10 +6,10 @@ int FindPos(int* a, int low, int high);
 int main(void)
 {
 
-    printf("ÎÒÂÒÂë\n");
+    printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n");
     int a[6] = {2,1,0,5,4,3};
 
-    QuickSort(a,0,5); //µÚ¶ş¸ö²ÎÊı±íÊ¾µÚÒ»¸öÔªËØµÄÏÂ±ê µÚÈı¸öÔªËØ±íÊ¾×îºóÒ»¸öÔªËØµÄÏÂ±ê
+    QuickSort(a,0,5); //ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½
 
 
     for (int i = 0; i < 6;++i) {
@@ -42,11 +35,11 @@ int FindPos(int * a,int low,int high) {
             ++low;
         }
         a[high] = a[low];
-    } //ÖÕÖ¹whileÑ­»·Ö®ºó  lowºÍhighÒ»¶¨ÏàµÈµÄ
+    }
 
     a[low] = val;
 
-    return high; //high¿ÉÒÔ¸ÄÎªlow
+    return high;
 }
 
 
