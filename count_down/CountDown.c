@@ -1,6 +1,3 @@
-//
-// Created by Alex on 2020/6/29.
-//
 #include <stdio.h>
 #include <windows.h>
 #include <stdlib.h>
