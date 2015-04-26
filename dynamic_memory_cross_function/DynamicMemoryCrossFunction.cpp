@@ -1,5 +1,4 @@
-﻿// dynamic_memory_cross_function.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-#include <stdio.h>
+﻿#include <stdio.h>
 
 struct Student {
 	int age;
