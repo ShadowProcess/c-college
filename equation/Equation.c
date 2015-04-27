@@ -46,5 +46,4 @@ int main(void) {
 //int main(int argc, char* argv[], char* envs[]) { /* … */ }
 
 //函数返回值是 int，有 3 个参数：第一个是 int，另外两个是 char** 。
-
 //在上面所有的例子中，main（）函数都会把最终的执行状态以整数的方式传递给操作系统。返回值如果是 0 或 EXIT_SUCCESS，就表示程序执行过程一切顺利；任何非 0 的返回值，尤其是 EXIT_FAILURE，则表示程序执行时出现了某种问题。
