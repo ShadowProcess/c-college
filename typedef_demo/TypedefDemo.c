@@ -3,7 +3,6 @@
 typedef int ZHANG;  //重新再取一个名字
 
 typedef struct Student {
-
 	int age;
 }ST;
 
