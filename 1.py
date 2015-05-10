@@ -1,8 +1,6 @@
 import datetime
 import os
 
-##
-
 def set_sys_date(year, month, day):
     print('date %04d/%02d/%02d' % (year, month, day))
     os.system('date %04d/%02d/%02d' % (year, month, day))
@@ -18,4 +16,4 @@ def commit(msg):
 if __name__ == '__main__':
     set_sys_date(2015,5,10)    #设置那一天
     set_sys_time(21,21,21)     #设置时分秒
-    commit("函数跳转")              #想要深色点，最低三个提交
+    commit("模块1加入cmake")              #想要深色点，最低三个提交
