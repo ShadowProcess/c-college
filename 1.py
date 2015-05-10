@@ -18,4 +18,4 @@ def commit(msg):
 if __name__ == '__main__':
     set_sys_date(2015,5,10)    #设置那一天
     set_sys_time(21,21,21)     #设置时分秒
-    commit("什么是变量的地址")              #想要深色点，最低三个提交
+    commit("函数跳转")              #想要深色点，最低三个提交
