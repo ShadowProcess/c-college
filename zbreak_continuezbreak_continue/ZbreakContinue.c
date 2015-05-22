@@ -1,5 +1,4 @@
 ﻿/**
-
 break
 	1.break如果用于循环是用来终止循环
 	2.break如果用于switch,则是用来终止switch
@@ -17,7 +16,6 @@ for(1; 2; 3){
    C;
    D;
 }
-
 **/
 
 #include <stdio.h>
@@ -44,7 +42,6 @@ int main()
 			break;
 		}
 	}
-
 	return 0;
 }
 
