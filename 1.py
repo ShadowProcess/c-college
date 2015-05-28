@@ -15,5 +15,5 @@ def commit(msg):
 
 if __name__ == '__main__':
     set_sys_date(2015,5,28)    #设置那一天
-    set_sys_time(8,20,21)     #设置时分秒
-    commit("c语言总结")     #想要深色点，最低三个提交
+    set_sys_time(9,20,21)     #设置时分秒
+    commit("内存定位")     #想要深色点，最低三个提交
