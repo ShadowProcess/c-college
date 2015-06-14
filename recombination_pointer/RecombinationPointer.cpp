@@ -13,8 +13,6 @@ int main(void)
 	char ch = 'A';
 	c = &ch;
 	printf("%c\n",*c);
-
-
 	return 0;
 }
 

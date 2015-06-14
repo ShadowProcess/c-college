@@ -29,6 +29,7 @@
 
 int main(void)
 {
+    getchar()
     printf_s("%d",5);
 	return 0;
 }
