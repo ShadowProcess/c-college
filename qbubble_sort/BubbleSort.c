@@ -1,10 +1,3 @@
-//
-// Created by Alex on 2019/11/29.
-//
-
-// 冒泡排序.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
 #include <stdio.h>
 
 void sort(int * a,int len) {
@@ -33,9 +26,9 @@ int main(void)
     for (i = 0; i < 6;++i) {
         printf("%d ",a[i]);
     }
-
+    long i = 1;
+    printf(i)
     printf("\n");
-
     return 0;
 }
 
