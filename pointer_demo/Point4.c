@@ -1,17 +1,12 @@
-// 指针4.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //互换两个数字
 
 #include <stdio.h>
-
-
-
 void huhuan1(int a,int b) {  //这个函数不能完成互换功能
     int t;
 
     t = a;
     a = b;
     b = t;
-
     return;
 }
 
