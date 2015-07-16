@@ -10,10 +10,8 @@ void huhuan1(int a,int b) {  //这个函数不能完成互换功能
     return;
 }
 
-
 void huhuan2(int * p,int * q) { //这个函数不能互换
     int * t;
-
     t = p;
     p = q;
     q = t;
@@ -38,6 +36,5 @@ int main(void)
     huhuan2(&a,&b); // 不能完成互换
 
     printf("a = %d,b = %d \n",a,b);
-
     return 0;
 }
