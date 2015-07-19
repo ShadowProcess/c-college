@@ -1,5 +1,4 @@
-﻿// one_dimensional_array_require_several_parameter.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-#include <iostream>
+﻿#include <iostream>
 
 void f(int k[]) {
 	int i;
@@ -32,7 +31,6 @@ int main(void)
 	f1(a, 5);
 
 	// *(a+3) 等价于 a[3]
-
 	return 0;
 }
 
