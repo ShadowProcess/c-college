@@ -1,4 +1,4 @@
-﻿//integratedApplication综合应用 学生管理
+﻿//综合应用 学生管理
 # include <stdio.h>
 # include <malloc.h>
 
