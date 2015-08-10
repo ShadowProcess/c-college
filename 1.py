@@ -16,4 +16,4 @@ def commit(msg):
 if __name__ == '__main__':
     set_sys_date(2015,8,10)    #设置那一天
     set_sys_time(15,18,11)     #设置时分秒
-    commit("函数的声明")             #想要深色点，最低三个提交
+    commit("常规函数")             #想要深色点，最低三个提交
