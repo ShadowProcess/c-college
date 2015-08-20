@@ -1,5 +1,4 @@
-﻿// FloatingPointStorageProblems.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-/**
+﻿/**
   例子：
 	(int)(4.5+2.2) 最终值是 6
 	(float)(5)     最终值为5.000000
@@ -38,7 +37,6 @@ int main(void)
 //	else {
 //	    不是0
 //	}
-
 	return 0;
 }
 
