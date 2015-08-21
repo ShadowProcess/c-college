@@ -1,6 +1,4 @@
-﻿// FloatingPointNumbersCannotBeStoredAccurately.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-
-//有效位内是准确的，有效位之外就会在一个范围内浮动，幅度有多大就不知道了
+﻿//有效位内是准确的，有效位之外就会在一个范围内浮动，幅度有多大就不知道了
 
 #include <iostream>
 
