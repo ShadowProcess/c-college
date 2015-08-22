@@ -16,4 +16,4 @@ def commit(msg):
 if __name__ == '__main__':
     set_sys_date(2015,8,22)    #设置那一天
     set_sys_time(16,18,11)     #设置时分秒
-    commit("bug")             #想要深色点，最低三个提交
+    commit("ccp")             #想要深色点，最低三个提交
