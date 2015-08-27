@@ -1,7 +1,5 @@
-﻿
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <malloc.h>
-
 
 int main(void)
 {
@@ -28,7 +26,6 @@ int main(void)
 	}
 
 	free(pArr); //释放动态分配的数组
-
 	return 0;
 }
 
