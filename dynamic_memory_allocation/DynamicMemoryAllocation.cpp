@@ -1,5 +1,4 @@
-﻿
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <malloc.h>
 
 int main(void)
@@ -16,7 +15,6 @@ int main(void)
 	pArr[1] = 10; //类似于a[1] = 10;
 	
 	free(pArr); //把pArr所代表的的动态分配的20个字节的内存释放
-
 	return 0;
 }
 
