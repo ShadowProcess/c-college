@@ -2,10 +2,8 @@
 #include <iostream>
 
 //逗号表达式
-
 int main(void)
 {
-	
 	int i;
 	int j = 2;
 
