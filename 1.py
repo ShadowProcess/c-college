@@ -16,4 +16,4 @@ def commit(msg):
 if __name__ == '__main__':
     set_sys_date(2015,10,20)   #设置那一天
     set_sys_time()
-    commit("结构体")          #想要深色点，最低三个提交
+    commit("结构体应用")          #想要深色点，最低三个提交
