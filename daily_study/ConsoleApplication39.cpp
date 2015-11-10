@@ -1,6 +1,4 @@
-﻿// ConsoleApplication39.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-
-/****
+﻿/****
 	数据结构 = 个体的存储 + 个体的关系存储
 	算法 = 对存储数据的操作
 
@@ -21,7 +19,6 @@ int main(void)
 {
 	int a[10];
 	int * pArr = (int *)malloc(sizeof(int));
-
 	return 0;
 }
 
