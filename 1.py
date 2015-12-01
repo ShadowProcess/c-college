@@ -16,4 +16,4 @@ def commit(msg):
 if __name__ == '__main__':
     set_sys_date(2015,12,1)   #设置那一天
     set_sys_time()
-    commit("虚函数")          #想要深色点，最低三个提交
+    commit("虚函数")           #想要深色点，最低三个提交
