@@ -1,12 +1,8 @@
-﻿// ConsoleApplication44.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <malloc.h>
 #include <stdlib.h>
 
 typedef struct Node {
-
 	int data;        //数据域
 	struct Node * pNext; //指针域
 } NODE,*PNODE; //NODE 等价于 struct Node		 PNODE等价于struct Node *
