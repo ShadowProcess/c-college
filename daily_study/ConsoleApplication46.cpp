@@ -1,10 +1,6 @@
-﻿// ConsoleApplication46.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <malloc.h>
 #include <stdlib.h>
-
 
 typedef struct Node {
 	int data;
@@ -23,9 +19,7 @@ int main(void)
 {
     
 	STACK S; //STACK 等价于 struct Stack
-
-	init(&S);	
-
+	init(&S);
 	return 0;
 }
 
