@@ -1,8 +1,5 @@
-﻿// ConsoleApplication48.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <malloc.h>
-
 
 typedef struct Queue {
 	int * pBase; //代表那个数组
@@ -30,8 +27,6 @@ int main(void)
 	en_queue(&Q, 4);
 
 	traverse_queue(&Q);
-
-	
 
 	return 0;
 }
