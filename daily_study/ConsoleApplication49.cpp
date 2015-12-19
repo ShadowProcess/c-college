@@ -1,5 +1,4 @@
-﻿
-#include <stdio.h>
+﻿#include <stdio.h>
 
 void f();
 void g();
@@ -12,7 +11,6 @@ void f() {
 
 void g() {
 	printf("GGGGGG\n");
-	
 }
 
 void k() {
@@ -21,9 +19,6 @@ void k() {
 
 int main(void)
 {
-    
-
-
 	return 0;
 }
 
