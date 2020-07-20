@@ -8,7 +8,6 @@ add_executable(c_college main.cpp)
 ##引入子目录
 ADD_SUBDIRECTORY(zbreak_continuezbreak_continue)
 ADD_SUBDIRECTORY(count_down)
-ADD_SUBDIRECTORY(daily_study)
 ADD_SUBDIRECTORY(dynamic_memory_allocation)
 ADD_SUBDIRECTORY(dynamic_memory_allocation_demo)
 ADD_SUBDIRECTORY(ui_99)

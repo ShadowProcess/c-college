@@ -54,19 +54,145 @@ CMAKE_BINARY_DIR = D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug
 # The main recursive "all" target.
 all: CMakeFiles/c_college.dir/all
 all: zbreak_continuezbreak_continue/all
+all: count_down/all
+all: dynamic_memory_allocation/all
+all: dynamic_memory_allocation_demo/all
+all: ui_99/all
+all: virus_memory/all
+all: what_is_a_variable_address/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: zbreak_continuezbreak_continue/preinstall
+preinstall: count_down/preinstall
+preinstall: dynamic_memory_allocation/preinstall
+preinstall: dynamic_memory_allocation_demo/preinstall
+preinstall: ui_99/preinstall
+preinstall: virus_memory/preinstall
+preinstall: what_is_a_variable_address/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/c_college.dir/clean
 clean: zbreak_continuezbreak_continue/clean
+clean: count_down/clean
+clean: dynamic_memory_allocation/clean
+clean: dynamic_memory_allocation_demo/clean
+clean: ui_99/clean
+clean: virus_memory/clean
+clean: what_is_a_variable_address/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory count_down
+
+# Recursive "all" directory target.
+count_down/all: count_down/CMakeFiles/count_down.dir/all
+
+.PHONY : count_down/all
+
+# Recursive "preinstall" directory target.
+count_down/preinstall:
+
+.PHONY : count_down/preinstall
+
+# Recursive "clean" directory target.
+count_down/clean: count_down/CMakeFiles/count_down.dir/clean
+
+.PHONY : count_down/clean
+
+#=============================================================================
+# Directory level rules for directory dynamic_memory_allocation
+
+# Recursive "all" directory target.
+dynamic_memory_allocation/all: dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/all
+
+.PHONY : dynamic_memory_allocation/all
+
+# Recursive "preinstall" directory target.
+dynamic_memory_allocation/preinstall:
+
+.PHONY : dynamic_memory_allocation/preinstall
+
+# Recursive "clean" directory target.
+dynamic_memory_allocation/clean: dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/clean
+
+.PHONY : dynamic_memory_allocation/clean
+
+#=============================================================================
+# Directory level rules for directory dynamic_memory_allocation_demo
+
+# Recursive "all" directory target.
+dynamic_memory_allocation_demo/all: dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/all
+
+.PHONY : dynamic_memory_allocation_demo/all
+
+# Recursive "preinstall" directory target.
+dynamic_memory_allocation_demo/preinstall:
+
+.PHONY : dynamic_memory_allocation_demo/preinstall
+
+# Recursive "clean" directory target.
+dynamic_memory_allocation_demo/clean: dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/clean
+
+.PHONY : dynamic_memory_allocation_demo/clean
+
+#=============================================================================
+# Directory level rules for directory ui_99
+
+# Recursive "all" directory target.
+ui_99/all: ui_99/CMakeFiles/ui_99.dir/all
+
+.PHONY : ui_99/all
+
+# Recursive "preinstall" directory target.
+ui_99/preinstall:
+
+.PHONY : ui_99/preinstall
+
+# Recursive "clean" directory target.
+ui_99/clean: ui_99/CMakeFiles/ui_99.dir/clean
+
+.PHONY : ui_99/clean
+
+#=============================================================================
+# Directory level rules for directory virus_memory
+
+# Recursive "all" directory target.
+virus_memory/all: virus_memory/CMakeFiles/virus_memory.dir/all
+
+.PHONY : virus_memory/all
+
+# Recursive "preinstall" directory target.
+virus_memory/preinstall:
+
+.PHONY : virus_memory/preinstall
+
+# Recursive "clean" directory target.
+virus_memory/clean: virus_memory/CMakeFiles/virus_memory.dir/clean
+
+.PHONY : virus_memory/clean
+
+#=============================================================================
+# Directory level rules for directory what_is_a_variable_address
+
+# Recursive "all" directory target.
+what_is_a_variable_address/all:
+
+.PHONY : what_is_a_variable_address/all
+
+# Recursive "preinstall" directory target.
+what_is_a_variable_address/preinstall:
+
+.PHONY : what_is_a_variable_address/preinstall
+
+# Recursive "clean" directory target.
+what_is_a_variable_address/clean:
+
+.PHONY : what_is_a_variable_address/clean
 
 #=============================================================================
 # Directory level rules for directory zbreak_continuezbreak_continue
@@ -120,7 +246,7 @@ CMakeFiles/c_college.dir/clean:
 zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/all:
 	$(MAKE) -f zbreak_continuezbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/depend
 	$(MAKE) -f zbreak_continuezbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target zbreak-continue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target zbreak-continue"
 .PHONY : zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -139,6 +265,141 @@ zbreak-continue: zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/r
 zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/clean:
 	$(MAKE) -f zbreak_continuezbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/clean
 .PHONY : zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/clean
+
+#=============================================================================
+# Target rules for target count_down/CMakeFiles/count_down.dir
+
+# All Build rule for target.
+count_down/CMakeFiles/count_down.dir/all:
+	$(MAKE) -f count_down\CMakeFiles\count_down.dir\build.make count_down/CMakeFiles/count_down.dir/depend
+	$(MAKE) -f count_down\CMakeFiles\count_down.dir\build.make count_down/CMakeFiles/count_down.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target count_down"
+.PHONY : count_down/CMakeFiles/count_down.dir/all
+
+# Build rule for subdir invocation for target.
+count_down/CMakeFiles/count_down.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 count_down/CMakeFiles/count_down.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 0
+.PHONY : count_down/CMakeFiles/count_down.dir/rule
+
+# Convenience name for target.
+count_down: count_down/CMakeFiles/count_down.dir/rule
+
+.PHONY : count_down
+
+# clean rule for target.
+count_down/CMakeFiles/count_down.dir/clean:
+	$(MAKE) -f count_down\CMakeFiles\count_down.dir\build.make count_down/CMakeFiles/count_down.dir/clean
+.PHONY : count_down/CMakeFiles/count_down.dir/clean
+
+#=============================================================================
+# Target rules for target dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir
+
+# All Build rule for target.
+dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/all:
+	$(MAKE) -f dynamic_memory_allocation\CMakeFiles\dynamic_memory_allocation.dir\build.make dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/depend
+	$(MAKE) -f dynamic_memory_allocation\CMakeFiles\dynamic_memory_allocation.dir\build.make dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target dynamic_memory_allocation"
+.PHONY : dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/all
+
+# Build rule for subdir invocation for target.
+dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 0
+.PHONY : dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/rule
+
+# Convenience name for target.
+dynamic_memory_allocation: dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/rule
+
+.PHONY : dynamic_memory_allocation
+
+# clean rule for target.
+dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/clean:
+	$(MAKE) -f dynamic_memory_allocation\CMakeFiles\dynamic_memory_allocation.dir\build.make dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/clean
+.PHONY : dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/clean
+
+#=============================================================================
+# Target rules for target dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir
+
+# All Build rule for target.
+dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/all:
+	$(MAKE) -f dynamic_memory_allocation_demo\CMakeFiles\dynamic_memory_allocation_demo.dir\build.make dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/depend
+	$(MAKE) -f dynamic_memory_allocation_demo\CMakeFiles\dynamic_memory_allocation_demo.dir\build.make dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target dynamic_memory_allocation_demo"
+.PHONY : dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/all
+
+# Build rule for subdir invocation for target.
+dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 0
+.PHONY : dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/rule
+
+# Convenience name for target.
+dynamic_memory_allocation_demo: dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/rule
+
+.PHONY : dynamic_memory_allocation_demo
+
+# clean rule for target.
+dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/clean:
+	$(MAKE) -f dynamic_memory_allocation_demo\CMakeFiles\dynamic_memory_allocation_demo.dir\build.make dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/clean
+.PHONY : dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/clean
+
+#=============================================================================
+# Target rules for target ui_99/CMakeFiles/ui_99.dir
+
+# All Build rule for target.
+ui_99/CMakeFiles/ui_99.dir/all:
+	$(MAKE) -f ui_99\CMakeFiles\ui_99.dir\build.make ui_99/CMakeFiles/ui_99.dir/depend
+	$(MAKE) -f ui_99\CMakeFiles\ui_99.dir\build.make ui_99/CMakeFiles/ui_99.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target ui_99"
+.PHONY : ui_99/CMakeFiles/ui_99.dir/all
+
+# Build rule for subdir invocation for target.
+ui_99/CMakeFiles/ui_99.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 ui_99/CMakeFiles/ui_99.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 0
+.PHONY : ui_99/CMakeFiles/ui_99.dir/rule
+
+# Convenience name for target.
+ui_99: ui_99/CMakeFiles/ui_99.dir/rule
+
+.PHONY : ui_99
+
+# clean rule for target.
+ui_99/CMakeFiles/ui_99.dir/clean:
+	$(MAKE) -f ui_99\CMakeFiles\ui_99.dir\build.make ui_99/CMakeFiles/ui_99.dir/clean
+.PHONY : ui_99/CMakeFiles/ui_99.dir/clean
+
+#=============================================================================
+# Target rules for target virus_memory/CMakeFiles/virus_memory.dir
+
+# All Build rule for target.
+virus_memory/CMakeFiles/virus_memory.dir/all:
+	$(MAKE) -f virus_memory\CMakeFiles\virus_memory.dir\build.make virus_memory/CMakeFiles/virus_memory.dir/depend
+	$(MAKE) -f virus_memory\CMakeFiles\virus_memory.dir\build.make virus_memory/CMakeFiles/virus_memory.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target virus_memory"
+.PHONY : virus_memory/CMakeFiles/virus_memory.dir/all
+
+# Build rule for subdir invocation for target.
+virus_memory/CMakeFiles/virus_memory.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 virus_memory/CMakeFiles/virus_memory.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 0
+.PHONY : virus_memory/CMakeFiles/virus_memory.dir/rule
+
+# Convenience name for target.
+virus_memory: virus_memory/CMakeFiles/virus_memory.dir/rule
+
+.PHONY : virus_memory
+
+# clean rule for target.
+virus_memory/CMakeFiles/virus_memory.dir/clean:
+	$(MAKE) -f virus_memory\CMakeFiles\virus_memory.dir\build.make virus_memory/CMakeFiles/virus_memory.dir/clean
+.PHONY : virus_memory/CMakeFiles/virus_memory.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

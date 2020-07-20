@@ -135,6 +135,71 @@ zbreak-continue/fast:
 	$(MAKE) -f zbreak_continuezbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/build
 .PHONY : zbreak-continue/fast
 
+#=============================================================================
+# Target rules for targets named count_down
+
+# Build rule for target.
+count_down: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 count_down
+.PHONY : count_down
+
+# fast build rule for target.
+count_down/fast:
+	$(MAKE) -f count_down\CMakeFiles\count_down.dir\build.make count_down/CMakeFiles/count_down.dir/build
+.PHONY : count_down/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_memory_allocation
+
+# Build rule for target.
+dynamic_memory_allocation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 dynamic_memory_allocation
+.PHONY : dynamic_memory_allocation
+
+# fast build rule for target.
+dynamic_memory_allocation/fast:
+	$(MAKE) -f dynamic_memory_allocation\CMakeFiles\dynamic_memory_allocation.dir\build.make dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/build
+.PHONY : dynamic_memory_allocation/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_memory_allocation_demo
+
+# Build rule for target.
+dynamic_memory_allocation_demo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 dynamic_memory_allocation_demo
+.PHONY : dynamic_memory_allocation_demo
+
+# fast build rule for target.
+dynamic_memory_allocation_demo/fast:
+	$(MAKE) -f dynamic_memory_allocation_demo\CMakeFiles\dynamic_memory_allocation_demo.dir\build.make dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/build
+.PHONY : dynamic_memory_allocation_demo/fast
+
+#=============================================================================
+# Target rules for targets named ui_99
+
+# Build rule for target.
+ui_99: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 ui_99
+.PHONY : ui_99
+
+# fast build rule for target.
+ui_99/fast:
+	$(MAKE) -f ui_99\CMakeFiles\ui_99.dir\build.make ui_99/CMakeFiles/ui_99.dir/build
+.PHONY : ui_99/fast
+
+#=============================================================================
+# Target rules for targets named virus_memory
+
+# Build rule for target.
+virus_memory: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 virus_memory
+.PHONY : virus_memory
+
+# fast build rule for target.
+virus_memory/fast:
+	$(MAKE) -f virus_memory\CMakeFiles\virus_memory.dir\build.make virus_memory/CMakeFiles/virus_memory.dir/build
+.PHONY : virus_memory/fast
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -172,6 +237,11 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... zbreak-continue
+	@echo ... count_down
+	@echo ... dynamic_memory_allocation
+	@echo ... dynamic_memory_allocation_demo
+	@echo ... ui_99
+	@echo ... virus_memory
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

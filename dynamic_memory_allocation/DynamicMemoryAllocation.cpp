@@ -7,7 +7,7 @@ int main(void)
 
 	int len;
 	printf("请输入你需要分配的数组的长度:len = ");
-	scanf_s("%d",&len);
+	//scanf_s("%d",&len);
 
 	int * pArr =(int *)malloc(sizeof(int) * len);  //只返回的第一个字节地址 【系统就是这么规定的】
 

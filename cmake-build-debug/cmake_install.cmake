@@ -37,6 +37,36 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continuezbreak_continue/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/count_down/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/dynamic_memory_allocation/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/dynamic_memory_allocation_demo/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/ui_99/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/virus_memory/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/what_is_a_variable_address/cmake_install.cmake")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()

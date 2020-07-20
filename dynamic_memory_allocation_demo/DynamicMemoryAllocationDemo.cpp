@@ -8,7 +8,7 @@ int main(void)
 	int * pArr;
 
 	printf("请输入您要存放的元素个数!\n");
-	scanf_s("%d",&len);
+	//scanf_s("%d",&len);
 
 	pArr = (int *)malloc(4 * len); //动态构造长度为len的数组
 
@@ -16,7 +16,7 @@ int main(void)
 	printf("请输入元素的内容!\n");
 	int i;
 	for (i = 0; i < len; ++i) {
-		scanf_s("%d", &pArr[i]);
+		scanf("%d", &pArr[i]);
 	}
 
 
