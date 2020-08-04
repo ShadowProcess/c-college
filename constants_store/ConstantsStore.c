@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main() {
     /**
 	常量以什么样的二进制代码存储在计算机中的？
