@@ -1,6 +1,5 @@
 ﻿#include <stdio.h>
 
-
 int main(void) {
     //不同类型数据之间相互赋值的问题
     int i = 45;
