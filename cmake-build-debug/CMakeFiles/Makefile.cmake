@@ -39,12 +39,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.5/CMakeRCCompiler.cmake"
   "CMakeFiles/3.16.5/CMakeSystem.cmake"
   "../count_down/CMakeLists.txt"
+  "../decimals_demo/CMakeLists.txt"
   "../dynamic_memory_allocation/CMakeLists.txt"
   "../dynamic_memory_allocation_demo/CMakeLists.txt"
   "../ui_99/CMakeLists.txt"
   "../virus_memory/CMakeLists.txt"
   "../what_is_a_variable_address/CMakeLists.txt"
-  "../zbreak_continuezbreak_continue/CMakeLists.txt"
+  "../zbreak_continue/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -56,22 +57,24 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "zbreak_continuezbreak_continue/CMakeFiles/CMakeDirectoryInformation.cmake"
   "count_down/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dynamic_memory_allocation/CMakeFiles/CMakeDirectoryInformation.cmake"
   "dynamic_memory_allocation_demo/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "decimals_demo/CMakeFiles/CMakeDirectoryInformation.cmake"
   "ui_99/CMakeFiles/CMakeDirectoryInformation.cmake"
   "virus_memory/CMakeFiles/CMakeDirectoryInformation.cmake"
   "what_is_a_variable_address/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "zbreak_continue/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/c_college.dir/DependInfo.cmake"
-  "zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/DependInfo.cmake"
   "count_down/CMakeFiles/count_down.dir/DependInfo.cmake"
   "dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/DependInfo.cmake"
   "dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/DependInfo.cmake"
+  "decimals_demo/CMakeFiles/decimals.dir/DependInfo.cmake"
   "ui_99/CMakeFiles/ui_99.dir/DependInfo.cmake"
   "virus_memory/CMakeFiles/virus_memory.dir/DependInfo.cmake"
+  "zbreak_continue/CMakeFiles/zbreak-continue.dir/DependInfo.cmake"
   )

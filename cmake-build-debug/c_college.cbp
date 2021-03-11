@@ -5,7 +5,7 @@
 		<Option title="c_college"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\zbreak_continuezbreak_continue\;CMake Files\virus_memory\;CMake Files\what_is_a_variable_address\;CMake Files\count_down\;CMake Files\dynamic_memory_allocation\;CMake Files\dynamic_memory_allocation_demo\;CMake Files\ui_99\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\virus_memory\;CMake Files\what_is_a_variable_address\;CMake Files\zbreak_continue\;CMake Files\count_down\;CMake Files\dynamic_memory_allocation\;CMake Files\dynamic_memory_allocation_demo\;CMake Files\decimals_demo\;CMake Files\ui_99\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug"/>
@@ -77,48 +77,6 @@
 					<CompileFile command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="zbreak-continue">
-				<Option output="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continuezbreak_continue/zbreak-continue.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continuezbreak_continue"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continuezbreak_continue/Makefile&quot;  VERBOSE=1 zbreak-continue"/>
-					<CompileFile command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continuezbreak_continue/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continuezbreak_continue/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continuezbreak_continue/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="zbreak-continue/fast">
-				<Option output="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continuezbreak_continue/zbreak-continue.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continuezbreak_continue"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continuezbreak_continue/Makefile&quot;  VERBOSE=1 zbreak-continue/fast"/>
-					<CompileFile command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continuezbreak_continue/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continuezbreak_continue/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continuezbreak_continue/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="count_down">
@@ -247,6 +205,48 @@
 					<DistClean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/dynamic_memory_allocation_demo/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="decimals">
+				<Option output="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/decimals_demo/decimals.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/decimals_demo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/decimals_demo/Makefile&quot;  VERBOSE=1 decimals"/>
+					<CompileFile command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/decimals_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/decimals_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/decimals_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="decimals/fast">
+				<Option output="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/decimals_demo/decimals.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/decimals_demo"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/decimals_demo/Makefile&quot;  VERBOSE=1 decimals/fast"/>
+					<CompileFile command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/decimals_demo/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/decimals_demo/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/decimals_demo/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ui_99">
 				<Option output="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/ui_99/ui_99.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/ui_99"/>
@@ -331,9 +331,54 @@
 					<DistClean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/virus_memory/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="zbreak-continue">
+				<Option output="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continue/zbreak-continue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continue"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continue/Makefile&quot;  VERBOSE=1 zbreak-continue"/>
+					<CompileFile command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continue/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continue/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continue/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="zbreak-continue/fast">
+				<Option output="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continue/zbreak-continue.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continue"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continue/Makefile&quot;  VERBOSE=1 zbreak-continue/fast"/>
+					<CompileFile command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continue/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continue/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/DevelopmentSoftWare/CLion/MinGW/mingw32/bin/mingw32-make.exe -f &quot;D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continue/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/count_down/CountDown.c">
 			<Option target="count_down"/>
+		</Unit>
+		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/decimals_demo/decimals.cpp">
+			<Option target="decimals"/>
 		</Unit>
 		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/dynamic_memory_allocation/DynamicMemoryAllocation.cpp">
 			<Option target="dynamic_memory_allocation"/>
@@ -350,20 +395,20 @@
 		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/virus_memory/VirusMemory.c">
 			<Option target="virus_memory"/>
 		</Unit>
-		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/zbreak_continuezbreak_continue/ZbreakContinue.c">
+		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/zbreak_continue/ZbreakContinue.c">
 			<Option target="zbreak-continue"/>
 		</Unit>
 		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/zbreak_continuezbreak_continue/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\zbreak_continuezbreak_continue\"/>
 		</Unit>
 		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/virus_memory/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\virus_memory\"/>
 		</Unit>
 		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/what_is_a_variable_address/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\what_is_a_variable_address\"/>
+		</Unit>
+		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/zbreak_continue/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zbreak_continue\"/>
 		</Unit>
 		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/count_down/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\count_down\"/>
@@ -373,6 +418,9 @@
 		</Unit>
 		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/dynamic_memory_allocation_demo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\dynamic_memory_allocation_demo\"/>
+		</Unit>
+		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/decimals_demo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\decimals_demo\"/>
 		</Unit>
 		<Unit filename="D:/DevelopmentSoftWare/cWorkSpace/c-college/ui_99/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\ui_99\"/>

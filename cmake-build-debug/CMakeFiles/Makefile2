@@ -53,36 +53,39 @@ CMAKE_BINARY_DIR = D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/c_college.dir/all
-all: zbreak_continuezbreak_continue/all
 all: count_down/all
 all: dynamic_memory_allocation/all
 all: dynamic_memory_allocation_demo/all
+all: decimals_demo/all
 all: ui_99/all
 all: virus_memory/all
 all: what_is_a_variable_address/all
+all: zbreak_continue/all
 
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: zbreak_continuezbreak_continue/preinstall
 preinstall: count_down/preinstall
 preinstall: dynamic_memory_allocation/preinstall
 preinstall: dynamic_memory_allocation_demo/preinstall
+preinstall: decimals_demo/preinstall
 preinstall: ui_99/preinstall
 preinstall: virus_memory/preinstall
 preinstall: what_is_a_variable_address/preinstall
+preinstall: zbreak_continue/preinstall
 
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/c_college.dir/clean
-clean: zbreak_continuezbreak_continue/clean
 clean: count_down/clean
 clean: dynamic_memory_allocation/clean
 clean: dynamic_memory_allocation_demo/clean
+clean: decimals_demo/clean
 clean: ui_99/clean
 clean: virus_memory/clean
 clean: what_is_a_variable_address/clean
+clean: zbreak_continue/clean
 
 .PHONY : clean
 
@@ -103,6 +106,24 @@ count_down/preinstall:
 count_down/clean: count_down/CMakeFiles/count_down.dir/clean
 
 .PHONY : count_down/clean
+
+#=============================================================================
+# Directory level rules for directory decimals_demo
+
+# Recursive "all" directory target.
+decimals_demo/all: decimals_demo/CMakeFiles/decimals.dir/all
+
+.PHONY : decimals_demo/all
+
+# Recursive "preinstall" directory target.
+decimals_demo/preinstall:
+
+.PHONY : decimals_demo/preinstall
+
+# Recursive "clean" directory target.
+decimals_demo/clean: decimals_demo/CMakeFiles/decimals.dir/clean
+
+.PHONY : decimals_demo/clean
 
 #=============================================================================
 # Directory level rules for directory dynamic_memory_allocation
@@ -195,22 +216,22 @@ what_is_a_variable_address/clean:
 .PHONY : what_is_a_variable_address/clean
 
 #=============================================================================
-# Directory level rules for directory zbreak_continuezbreak_continue
+# Directory level rules for directory zbreak_continue
 
 # Recursive "all" directory target.
-zbreak_continuezbreak_continue/all: zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/all
+zbreak_continue/all: zbreak_continue/CMakeFiles/zbreak-continue.dir/all
 
-.PHONY : zbreak_continuezbreak_continue/all
+.PHONY : zbreak_continue/all
 
 # Recursive "preinstall" directory target.
-zbreak_continuezbreak_continue/preinstall:
+zbreak_continue/preinstall:
 
-.PHONY : zbreak_continuezbreak_continue/preinstall
+.PHONY : zbreak_continue/preinstall
 
 # Recursive "clean" directory target.
-zbreak_continuezbreak_continue/clean: zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/clean
+zbreak_continue/clean: zbreak_continue/CMakeFiles/zbreak-continue.dir/clean
 
-.PHONY : zbreak_continuezbreak_continue/clean
+.PHONY : zbreak_continue/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/c_college.dir
@@ -238,33 +259,6 @@ c_college: CMakeFiles/c_college.dir/rule
 CMakeFiles/c_college.dir/clean:
 	$(MAKE) -f CMakeFiles\c_college.dir\build.make CMakeFiles/c_college.dir/clean
 .PHONY : CMakeFiles/c_college.dir/clean
-
-#=============================================================================
-# Target rules for target zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir
-
-# All Build rule for target.
-zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/all:
-	$(MAKE) -f zbreak_continuezbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/depend
-	$(MAKE) -f zbreak_continuezbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target zbreak-continue"
-.PHONY : zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/all
-
-# Build rule for subdir invocation for target.
-zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 2
-	$(MAKE) -f CMakeFiles\Makefile2 zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 0
-.PHONY : zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/rule
-
-# Convenience name for target.
-zbreak-continue: zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/rule
-
-.PHONY : zbreak-continue
-
-# clean rule for target.
-zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/clean:
-	$(MAKE) -f zbreak_continuezbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/clean
-.PHONY : zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/clean
 
 #=============================================================================
 # Target rules for target count_down/CMakeFiles/count_down.dir
@@ -300,7 +294,7 @@ count_down/CMakeFiles/count_down.dir/clean:
 dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/all:
 	$(MAKE) -f dynamic_memory_allocation\CMakeFiles\dynamic_memory_allocation.dir\build.make dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/depend
 	$(MAKE) -f dynamic_memory_allocation\CMakeFiles\dynamic_memory_allocation.dir\build.make dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target dynamic_memory_allocation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target dynamic_memory_allocation"
 .PHONY : dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -327,7 +321,7 @@ dynamic_memory_allocation/CMakeFiles/dynamic_memory_allocation.dir/clean:
 dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/all:
 	$(MAKE) -f dynamic_memory_allocation_demo\CMakeFiles\dynamic_memory_allocation_demo.dir\build.make dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/depend
 	$(MAKE) -f dynamic_memory_allocation_demo\CMakeFiles\dynamic_memory_allocation_demo.dir\build.make dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target dynamic_memory_allocation_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target dynamic_memory_allocation_demo"
 .PHONY : dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -348,13 +342,40 @@ dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/cle
 .PHONY : dynamic_memory_allocation_demo/CMakeFiles/dynamic_memory_allocation_demo.dir/clean
 
 #=============================================================================
+# Target rules for target decimals_demo/CMakeFiles/decimals.dir
+
+# All Build rule for target.
+decimals_demo/CMakeFiles/decimals.dir/all:
+	$(MAKE) -f decimals_demo\CMakeFiles\decimals.dir\build.make decimals_demo/CMakeFiles/decimals.dir/depend
+	$(MAKE) -f decimals_demo\CMakeFiles\decimals.dir\build.make decimals_demo/CMakeFiles/decimals.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target decimals"
+.PHONY : decimals_demo/CMakeFiles/decimals.dir/all
+
+# Build rule for subdir invocation for target.
+decimals_demo/CMakeFiles/decimals.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 decimals_demo/CMakeFiles/decimals.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 0
+.PHONY : decimals_demo/CMakeFiles/decimals.dir/rule
+
+# Convenience name for target.
+decimals: decimals_demo/CMakeFiles/decimals.dir/rule
+
+.PHONY : decimals
+
+# clean rule for target.
+decimals_demo/CMakeFiles/decimals.dir/clean:
+	$(MAKE) -f decimals_demo\CMakeFiles\decimals.dir\build.make decimals_demo/CMakeFiles/decimals.dir/clean
+.PHONY : decimals_demo/CMakeFiles/decimals.dir/clean
+
+#=============================================================================
 # Target rules for target ui_99/CMakeFiles/ui_99.dir
 
 # All Build rule for target.
 ui_99/CMakeFiles/ui_99.dir/all:
 	$(MAKE) -f ui_99\CMakeFiles\ui_99.dir\build.make ui_99/CMakeFiles/ui_99.dir/depend
 	$(MAKE) -f ui_99\CMakeFiles\ui_99.dir\build.make ui_99/CMakeFiles/ui_99.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target ui_99"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target ui_99"
 .PHONY : ui_99/CMakeFiles/ui_99.dir/all
 
 # Build rule for subdir invocation for target.
@@ -381,7 +402,7 @@ ui_99/CMakeFiles/ui_99.dir/clean:
 virus_memory/CMakeFiles/virus_memory.dir/all:
 	$(MAKE) -f virus_memory\CMakeFiles\virus_memory.dir\build.make virus_memory/CMakeFiles/virus_memory.dir/depend
 	$(MAKE) -f virus_memory\CMakeFiles\virus_memory.dir\build.make virus_memory/CMakeFiles/virus_memory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target virus_memory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target virus_memory"
 .PHONY : virus_memory/CMakeFiles/virus_memory.dir/all
 
 # Build rule for subdir invocation for target.
@@ -400,6 +421,33 @@ virus_memory: virus_memory/CMakeFiles/virus_memory.dir/rule
 virus_memory/CMakeFiles/virus_memory.dir/clean:
 	$(MAKE) -f virus_memory\CMakeFiles\virus_memory.dir\build.make virus_memory/CMakeFiles/virus_memory.dir/clean
 .PHONY : virus_memory/CMakeFiles/virus_memory.dir/clean
+
+#=============================================================================
+# Target rules for target zbreak_continue/CMakeFiles/zbreak-continue.dir
+
+# All Build rule for target.
+zbreak_continue/CMakeFiles/zbreak-continue.dir/all:
+	$(MAKE) -f zbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continue/CMakeFiles/zbreak-continue.dir/depend
+	$(MAKE) -f zbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continue/CMakeFiles/zbreak-continue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target zbreak-continue"
+.PHONY : zbreak_continue/CMakeFiles/zbreak-continue.dir/all
+
+# Build rule for subdir invocation for target.
+zbreak_continue/CMakeFiles/zbreak-continue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 2
+	$(MAKE) -f CMakeFiles\Makefile2 zbreak_continue/CMakeFiles/zbreak-continue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\DevelopmentSoftWare\cWorkSpace\c-college\cmake-build-debug\CMakeFiles 0
+.PHONY : zbreak_continue/CMakeFiles/zbreak-continue.dir/rule
+
+# Convenience name for target.
+zbreak-continue: zbreak_continue/CMakeFiles/zbreak-continue.dir/rule
+
+.PHONY : zbreak-continue
+
+# clean rule for target.
+zbreak_continue/CMakeFiles/zbreak-continue.dir/clean:
+	$(MAKE) -f zbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continue/CMakeFiles/zbreak-continue.dir/clean
+.PHONY : zbreak_continue/CMakeFiles/zbreak-continue.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

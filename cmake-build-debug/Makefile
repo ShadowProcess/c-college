@@ -123,19 +123,6 @@ c_college/fast:
 .PHONY : c_college/fast
 
 #=============================================================================
-# Target rules for targets named zbreak-continue
-
-# Build rule for target.
-zbreak-continue: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 zbreak-continue
-.PHONY : zbreak-continue
-
-# fast build rule for target.
-zbreak-continue/fast:
-	$(MAKE) -f zbreak_continuezbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continuezbreak_continue/CMakeFiles/zbreak-continue.dir/build
-.PHONY : zbreak-continue/fast
-
-#=============================================================================
 # Target rules for targets named count_down
 
 # Build rule for target.
@@ -175,6 +162,19 @@ dynamic_memory_allocation_demo/fast:
 .PHONY : dynamic_memory_allocation_demo/fast
 
 #=============================================================================
+# Target rules for targets named decimals
+
+# Build rule for target.
+decimals: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 decimals
+.PHONY : decimals
+
+# fast build rule for target.
+decimals/fast:
+	$(MAKE) -f decimals_demo\CMakeFiles\decimals.dir\build.make decimals_demo/CMakeFiles/decimals.dir/build
+.PHONY : decimals/fast
+
+#=============================================================================
 # Target rules for targets named ui_99
 
 # Build rule for target.
@@ -199,6 +199,19 @@ virus_memory: cmake_check_build_system
 virus_memory/fast:
 	$(MAKE) -f virus_memory\CMakeFiles\virus_memory.dir\build.make virus_memory/CMakeFiles/virus_memory.dir/build
 .PHONY : virus_memory/fast
+
+#=============================================================================
+# Target rules for targets named zbreak-continue
+
+# Build rule for target.
+zbreak-continue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 zbreak-continue
+.PHONY : zbreak-continue
+
+# fast build rule for target.
+zbreak-continue/fast:
+	$(MAKE) -f zbreak_continue\CMakeFiles\zbreak-continue.dir\build.make zbreak_continue/CMakeFiles/zbreak-continue.dir/build
+.PHONY : zbreak-continue/fast
 
 main.obj: main.cpp.obj
 
@@ -236,12 +249,13 @@ help:
 	@echo ... c_college
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... zbreak-continue
 	@echo ... count_down
 	@echo ... dynamic_memory_allocation
 	@echo ... dynamic_memory_allocation_demo
+	@echo ... decimals
 	@echo ... ui_99
 	@echo ... virus_memory
+	@echo ... zbreak-continue
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
