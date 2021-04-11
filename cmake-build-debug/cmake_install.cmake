@@ -1,4 +1,4 @@
-# Install script for directory: D:/DevelopmentSoftWare/cWorkSpace/c-college
+# Install script for directory: D:/Development/cWorkSpace/c-college
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,44 +32,49 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/count_down/cmake_install.cmake")
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "D:/OtherSoft/MinGW/MinGW/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/dynamic_memory_allocation/cmake_install.cmake")
+  include("D:/Development/cWorkSpace/c-college/cmake-build-debug/count_down/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/dynamic_memory_allocation_demo/cmake_install.cmake")
+  include("D:/Development/cWorkSpace/c-college/cmake-build-debug/dynamic_memory_allocation/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/decimals_demo/cmake_install.cmake")
+  include("D:/Development/cWorkSpace/c-college/cmake-build-debug/dynamic_memory_allocation_demo/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/ui_99/cmake_install.cmake")
+  include("D:/Development/cWorkSpace/c-college/cmake-build-debug/decimals_demo/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/virus_memory/cmake_install.cmake")
+  include("D:/Development/cWorkSpace/c-college/cmake-build-debug/ui_99/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/what_is_a_variable_address/cmake_install.cmake")
+  include("D:/Development/cWorkSpace/c-college/cmake-build-debug/virus_memory/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/zbreak_continue/cmake_install.cmake")
+  include("D:/Development/cWorkSpace/c-college/cmake-build-debug/what_is_a_variable_address/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/Development/cWorkSpace/c-college/cmake-build-debug/zbreak_continue/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -80,5 +85,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/DevelopmentSoftWare/cWorkSpace/c-college/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Development/cWorkSpace/c-college/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
